@@ -1,0 +1,28 @@
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+  *{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: 0;
+  }
+  body{
+   color: #FFF;
+   -webkit-font-smoothing: antialiased;
+   background-color: #454545;
+ }
+  body, input, button {
+  font-size: 16px;
+  font-family: 'Roboto', serif;
+
+}
+  h1, h2, h3, h4, h5, h6, p, strong{
+   font-weight: 500;
+   font-family: 'Roboto', serif;
+
+ }
+  button{
+   cursor: pointer;
+ }
+`;
